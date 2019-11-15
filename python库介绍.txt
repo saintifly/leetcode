@@ -1,0 +1,33 @@
+1、telnetlib：telnet登录库
+2、random: 随机数模块
+3、string: 字符串模块
+4、paramiko: ssh模块
+5、ftplib: ftp登录模块
+6、request: HTTP请求库(爬虫）
+7、smtplib: 简单邮件传输协议库
+8、shutil: 文件高级操作库（拷贝）
+9、ssl: ssl证书的认证库
+10、sys: 系统库
+11、re: 正则表达式库
+12、os: 系统相关
+13、MySQLdb: mysql数据库
+14、sock: sock套接字库
+15、ctypes: 对接C语言（So库）
+16、glob: 文件名模式匹配库
+17、json：json 库
+18、commands：命令发送库
+19、subprocess: 高级命令发送库（更安全、多命令发送）
+20、logging: 日志模块
+21、argparse: 命令行分割处理
+22、prettytable: 命令行显示美化库
+23、array: 高效数组模块
+24、stat:文件的系统状态信息
+25、datetime: 系统日期时间
+26、time: 系统时间
+27、pickle: 特有的类型和数据类型转换
+28、redfishAPI: redfish 库
+29、base64: Base64是一种编码方式
+30、platform:获取平台信息和解释器相关信息
+31、configparser: 读取配置文件
+32、unittest: 单元测试
+
