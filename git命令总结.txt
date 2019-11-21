@@ -1,0 +1,16 @@
+1、git clone -b 分支 代码路径 ---下载代码
+2、git checkout 分支 -----切换分支
+3、git add . ---增加当前目录的修改
+4、git commit -m "注释" ---提交说明
+5、git push [--force] ----提交代码
+6、git rebase -i 节点 ----将节点之后进行rebase
+7、git reset --hard HEAD ----回退修改
+8、git log 查看修改记录
+9、git commit --amend ----和上次修改合并，修改上次的提交
+10、git init ---- git的初始化
+11、git status ------查看冲突
+12、git pull ---下拉代码
+13、git merge --abort 放弃合并，解决异常
+14、git fetch all ----只是下载代码到本地，不进行合并
+15、git tag ----添加tag
+16、LFS git 大文件上传。
