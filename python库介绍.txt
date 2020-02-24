@@ -1,9 +1,14 @@
 1、telnetlib：telnet登录库
+（1）系统工具库
 2、random: 随机数模块
+（1）系统工具库
 3、string: 字符串模块
+（1）系统工具库
 4、paramiko: ssh模块
+（1）不是系统工具库，需要自己安装
 5、ftplib: ftp登录模块
 6、request: HTTP请求库(爬虫）
+（1）不是系统工具库，需要自己安装
 7、smtplib: 简单邮件传输协议库
 8、shutil: 文件高级操作库（拷贝）
 9、ssl: ssl证书的认证库
@@ -20,14 +25,17 @@
 20、logging: 日志模块
 21、argparse: 命令行分割处理
 22、prettytable: 命令行显示美化库
+（1）不是系统工具库，需要自己安装
 23、array: 高效数组模块
 24、stat:文件的系统状态信息
 25、datetime: 系统日期时间
 26、time: 系统时间
 27、pickle: 特有的类型和数据类型转换
 28、redfishAPI: redfish 库
+（1）不是系统工具库，需要自己安装
 29、base64: Base64是一种编码方式
 30、platform:获取平台信息和解释器相关信息
 31、configparser: 读取配置文件
+（1）不是系统工具库，需要自己安装
 32、unittest: 单元测试
 
