@@ -1,8 +1,15 @@
-1¡¢pyInstaller ±àÒëºó£¬¿ÉÒÔÔÚÃ»ÓĞ°²×°pythonµÄ»úÆ÷ÉÏÊ¹ÓÃ
-2¡¢¹¤³ÌÖĞÒ»°ã»áÔÚÃ¿Ò»¸öÄ¿Â¼ÖĞ¼Ó__init__.pyÎÄ¼ş£¬ÎÄ¼şË÷Òı
-3¡¢rtype£º·µ»Øreturn µÄ·µ»ØÀàĞÍ
+1ã€pyInstaller ç¼–è¯‘åï¼Œå¯ä»¥åœ¨æ²¡æœ‰å®‰è£…pythonçš„æœºå™¨ä¸Šä½¿ç”¨
+2ã€å·¥ç¨‹ä¸­ä¸€èˆ¬ä¼šåœ¨æ¯ä¸€ä¸ªç›®å½•ä¸­åŠ __init__.pyæ–‡ä»¶ï¼Œæ–‡ä»¶ç´¢å¼•
+3ã€rtypeï¼šè¿”å›return çš„è¿”å›ç±»å‹
 type:    Type of a parameter.
 vartype: Type of a variable. 
 rtype:   Return type.
 
-4¡¢MacBook fork ºÍsubmine±àÂë¼æÈİ
+4ã€MacBook fork å’Œsubmineç¼–ç å…¼å®¹
+
+5ã€sqlæŸ¥è¯¢é‡å¤è®°å½•
+select * from æ•°æ®è¡¨ WHERE é‡å¤è®°å½•å­—æ®µ in ( select é‡å¤è®°å½•å­—æ®µ from  æ•°æ®è¡¨ group by é‡å¤è®°å½•å­—æ®µ having count(é‡å¤è®°å½•å­—æ®µ)>1)
+
+6ã€æŸ¥è¯¢ä¸¤ä¸ªè¡¨çš„ç›¸è”å†…å®¹ 
+select * from table1 a,table2 b where a.id=1 and a.id=b.lid 
+select * from student left join course on student.ID=course.ID
