@@ -13,18 +13,17 @@ def trap(height: List[int]) -> int:
     '''
     height_len = len(height)
     ans = 0
+    current_left_max = [0] * height_len
+    current_right_max = [0] * height_len
+    current_left_max[0] = height[0]
+    for i in range(1, height_len):
+        current_left_max[i] = max(height[i], current_left_max[i - 1])
+    current_right_max[-1] = height[-1]
+    for i in range(height_len-2, -1, -1):
+        current_right_max[i] = max(height[i], current_right_max[i+1])
     for i in range(height_len):
-        if height[0:i]!=[]:
-            current_left_max = max(height[0:i])
-        else:
-            current_left_max = 0
-        if height[i+1:] != []:
-            current_right_max = max(height[i+1:])
-        else:
-            current_right_max = 0
-        ans =  ans + max(min(current_left_max,current_right_max)-height[i],0)
+        ans = ans + min(current_left_max[i], current_right_max[i]) - height[i]
     return ans
-
 
 
 
@@ -33,6 +32,7 @@ if __name__ == '__main__':
     height = [0,1,0,2,1,0,1,3,2,1,2,1]
     输出为6
     '''
-    height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+    height = [0,1,0,2,1,0,1,3,2,1,2,1]
+    print(height)
     ans  = trap(height)
     print(ans)
